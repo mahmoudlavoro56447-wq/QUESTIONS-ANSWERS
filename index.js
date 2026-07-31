@@ -452,6 +452,9 @@ let QuestionsAndAnswers=[
     "rightAnswer": "الرجل العناب"
   }
 ]
+let span=document.querySelector("span")
+let totalQuestions=document.querySelector(".total-questions")
+totalQuestions.innerHTML=`total questions is <span style="background-color: yellow;">{${QuestionsAndAnswers.length}}</span>`
 function pushQuestions(){
     QuestionsAndAnswers.forEach((e)=>{
         let questionContainer=document.createElement("div")
@@ -521,7 +524,7 @@ function startPlaying(tracker,counter){
                     parentOfButtonsContainer.style.cssText="display:none !important"
                     startPlaying(tracker+1,counter)
                 },2000)
-
+                span.innerHTML=`${counter}/${QuestionsAndAnswers[tracker].id}`
 
 
             }
