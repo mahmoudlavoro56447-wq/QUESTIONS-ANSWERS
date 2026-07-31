@@ -3,453 +3,453 @@ let container=document.querySelector(".container")
 let QuestionsAndAnswers=[
   {
     "id": 1,
-    "question": "من هو المنتخب الفائز بكأس العالم 2022؟",
-    "firAnswer": "فرنسا",
-    "secAnswer": "الأرجنتين",
-    "thiAnswer": "الكرواتيا",
-    "fourAnswer": "البرازيل",
-    "rightAnswer": "الأرجنتين"
+    "question": "ما هو اسم الشخصية الرئيسي الذي يتحول إلى تاجر مخدرات في مسلسل Breaking Bad؟",
+    "firAnswer": "جيسي بينكمان",
+    "secAnswer": "والتر وايت",
+    "thiAnswer": "هانك شريدر",
+    "fourAnswer": "سول غودمان",
+    "rightAnswer": "والتر وايت"
   },
   {
     "id": 2,
-    "question": "من هو النادي الأكثر فوزاً بلقب دوري أبطال أوروبا؟",
-    "firAnswer": "إيه سي ميلان",
-    "secAnswer": "بايرن ميونخ",
-    "thiAnswer": "ريال مدريد",
-    "fourAnswer": "ليفربول",
-    "rightAnswer": "ريال مدريد"
+    "question": "في مسلسل Game of Thrones، ما هو شعار عائلة ستارك (House Stark)؟",
+    "firAnswer": "Fire and Blood",
+    "secAnswer": "Hear Me Roar",
+    "thiAnswer": "Winter is Coming",
+    "fourAnswer": "Growing Strong",
+    "rightAnswer": "Winter is Coming"
   },
   {
     "id": 3,
-    "question": "من هو الهداف التاريخي لبطولة كأس العالم؟",
-    "firAnswer": "بيليه",
-    "secAnswer": "ميروسلاف كلوزه",
-    "thiAnswer": "رونالدو الظاهرة",
-    "fourAnswer": "كريستيانو رونالدو",
-    "rightAnswer": "ميروسلاف كلوزه"
+    "question": "ما اسم القهوة الشهيرة التي يتجمع فيها الأبطال في مسلسل Friends؟",
+    "firAnswer": "Central Perk",
+    "secAnswer": "Monk's Diner",
+    "thiAnswer": "Cafe Nervosa",
+    "fourAnswer": "Luke's Diner",
+    "rightAnswer": "Central Perk"
   },
   {
     "id": 4,
-    "question": "ما هو المنتخب الأكثر فوزاً بكأس العالم على مر التاريخ؟",
-    "firAnswer": "ألمانيا",
-    "secAnswer": "إيطاليا",
-    "thiAnswer": "الأرجنتين",
-    "fourAnswer": "البرازيل",
-    "rightAnswer": "البرازيل"
+    "question": "من هو قائد عصابة Peaky Blinders في المسلسل الشهير؟",
+    "firAnswer": "آثر شيلبي",
+    "secAnswer": "تومي شيلبي",
+    "thiAnswer": "جون شيلبي",
+    "fourAnswer": "مايكل غراي",
+    "rightAnswer": "تومي شيلبي"
   },
   {
     "id": 5,
-    "question": "من هو اللاعب الأكثر تفويزاً بالكرة الذهبية (Ballon d'Or)؟",
-    "firAnswer": "ليونيل ميسي",
-    "secAnswer": "كريستيانو رونالدو",
-    "thiAnswer": "يوهان كرويف",
-    "fourAnswer": "مارادونا",
-    "rightAnswer": "ليونيل ميسي"
+    "question": "ما اسم المدينة الإسبانية التي تُلقب بها القائدة في مسلسل La Casa de Papel؟",
+    "firAnswer": "برشلونة",
+    "secAnswer": "مدريد",
+    "thiAnswer": "طوكيو",
+    "fourAnswer": "إشبيلية",
+    "rightAnswer": "طوكيو"
   },
   {
     "id": 6,
-    "question": "في أي دولة أقيمت أول نسخة من كأس العالم عام 1930؟",
-    "firAnswer": "البرازيل",
-    "secAnswer": "إيطاليا",
-    "thiAnswer": "الأوروغواي",
-    "fourAnswer": "الأرجنتين",
-    "rightAnswer": "الأوروغواي"
+    "question": "من هو الممثل صاحب شخصية 'جعفر العمدة' في المسلسل العربي الشهير؟",
+    "firAnswer": "أمير كرارة",
+    "secAnswer": "محمد رمضان",
+    "thiAnswer": "أحمد السقا",
+    "fourAnswer": "عمرو يوسف",
+    "rightAnswer": "محمد رمضان"
   },
   {
     "id": 7,
-    "question": "من هو النادي الإنجليزي الفائز بدوري أبطال أوروبا عام 2019؟",
-    "firAnswer": "مانشستر سيتي",
-    "secAnswer": "تشيلسي",
-    "thiAnswer": "توتنهام",
-    "fourAnswer": "ليفربول",
-    "rightAnswer": "ليفربول"
+    "question": "في مسلسل Stranger Things، ما اسم العالم الموازي المظلم؟",
+    "firAnswer": "The Nether",
+    "secAnswer": "The Upside Down",
+    "thiAnswer": "The Void",
+    "fourAnswer": "The End",
+    "rightAnswer": "The Upside Down"
   },
   {
     "id": 8,
-    "question": "من هو الهداف التاريخي لدوري أبطال أوروبا؟",
-    "firAnswer": "ليونيل ميسي",
-    "secAnswer": "كريستيانو رونالدو",
-    "thiAnswer": "روبرت ليفاندوفسكي",
-    "fourAnswer": "كريم بنزيما",
-    "rightAnswer": "كريستيانو رونالدو"
+    "question": "ما هي مهنة 'دكستر موران' في المسلسل الذي يحمل اسمه Dexter؟",
+    "firAnswer": "مطبّق قانون عادي",
+    "secAnswer": "محلل بقع دماء",
+    "thiAnswer": "جراح مخ وأعصاب",
+    "fourAnswer": "محامي دفاع",
+    "rightAnswer": "محلل بقع دماء"
   },
   {
     "id": 9,
-    "question": "ما هو الملعب الشهير الخاص بنادي برشلونة؟",
-    "firAnswer": "سانتياغو برنابيو",
-    "secAnswer": "كامب نو",
-    "thiAnswer": "واندا متروبوليتانو",
-    "fourAnswer": "المستايا",
-    "rightAnswer": "كامب نو"
+    "question": "من هو الممثل الذي لعب دور 'مايكل سكوفيلد' في مسلسل Prison Break؟",
+    "firAnswer": "دومينيك بورسيل",
+    "secAnswer": "وينتوورث ميلر",
+    "thiAnswer": "روبرت نبر",
+    "fourAnswer": "أوماري هاردويك",
+    "rightAnswer": "وينتوورث ميلر"
   },
   {
     "id": 10,
-    "question": "من المدرب الذي فاز بكأس العالم مع منتخب إسبانيا عام 2010؟",
-    "firAnswer": "بيب جوارديولا",
-    "secAnswer": "فيسنتي ديل بوسكي",
-    "thiAnswer": "لويس أراجونيس",
-    "fourAnswer": "لويس إنريكي",
-    "rightAnswer": "فيسنتي ديل بوسكي"
+    "question": "ما اسم المسلسل المصري الشهير الذي تدور أحداثه حول عائلة 'عبد الغفور البرعي'؟",
+    "firAnswer": "المال والبنون",
+    "secAnswer": "ليالي الحلمية",
+    "thiAnswer": "لن أعيش في جلباب أبي",
+    "fourAnswer": "زيزينيا",
+    "rightAnswer": "لن أعيش في جلباب أبي"
   },
   {
     "id": 11,
-    "question": "من هو النادي الإيطالي الملقب بـ 'السيدة العجوز'؟",
-    "firAnswer": "إنتر ميلان",
-    "secAnswer": "إيه سي ميلان",
-    "thiAnswer": "يوفنتوس",
-    "fourAnswer": "روما",
-    "rightAnswer": "يوفنتوس"
+    "question": "ما اسم القرية الخيالية التي تدور فيها أحداث مسلسل 'الكبير أوي'؟",
+    "firAnswer": "المزاريطة",
+    "secAnswer": "كفر الشيخ أوي",
+    "thiAnswer": "ميت عقبة",
+    "fourAnswer": "الترسة",
+    "rightAnswer": "المزاريطة"
   },
   {
     "id": 12,
-    "question": "أي منتخب أفريقي وصل لنصف نهائي كأس العالم 2022؟",
-    "firAnswer": "غانا",
-    "secAnswer": "السنغال",
-    "thiAnswer": "الكاميرون",
-    "fourAnswer": "المغرب",
-    "rightAnswer": "المغرب"
+    "question": "في مسلسل Sherlock من إنتاج BBC، من يُجسد شخصية شرلوك هولمز؟",
+    "firAnswer": "مارتن فريمان",
+    "secAnswer": "بينيديكت كامبرباتش",
+    "thiAnswer": "روبرت داوني جونيور",
+    "fourAnswer": "هنري كافيل",
+    "rightAnswer": "بينيديكت كامبرباتش"
   },
   {
     "id": 13,
-    "question": "من هو الحارس الفائز بجائزة أفضل حارس في كأس العالم 2022؟",
-    "firAnswer": "مانويل نوير",
-    "secAnswer": "إميليانو مارتينيز",
-    "thiAnswer": "تيبو كورتوا",
-    "fourAnswer": "ياسين بونو",
-    "rightAnswer": "إميليانو مارتينيز"
+    "question": "ما هو المسلسل الكوري الذي حقق أعلى نسبة مشاهدات على نتفليكس عام 2021؟",
+    "firAnswer": "All of Us Are Dead",
+    "secAnswer": "Squid Game",
+    "thiAnswer": "Crash Landing on You",
+    "fourAnswer": "Kingdom",
+    "rightAnswer": "Squid Game"
   },
   {
     "id": 14,
-    "question": "ما هو النادي الأكثر فوزاً بالدوري الإنجليزي الممتاز (Premier League)؟",
-    "firAnswer": "ليفربول",
-    "secAnswer": "أرسنال",
-    "thiAnswer": "مانشستر يونايتد",
-    "fourAnswer": "تشيلسي",
-    "rightAnswer": "مانشستر يونايتد"
+    "question": "من هو العقل المدبر لعمليات السطو في مسلسل La Casa de Papel؟",
+    "firAnswer": "برلين",
+    "secAnswer": "البروفيسور",
+    "thiAnswer": "باليرمو",
+    "fourAnswer": "دنفر",
+    "rightAnswer": "البروفيسور"
   },
   {
     "id": 15,
-    "question": "في أي عام فازت ألمانيا بكأس العالم بعد تغلبها على الأرجنتين في النهائي؟",
-    "firAnswer": "2006",
-    "secAnswer": "2010",
-    "thiAnswer": "2014",
-    "fourAnswer": "2018",
-    "rightAnswer": "2014"
+    "question": "ما اسم الشركة التي يعمل فيها أبطال النسخة الأمريكية من مسلسل The Office؟",
+    "firAnswer": "Initech",
+    "secAnswer": "Dunder Mifflin",
+    "thiAnswer": "Pied Piper",
+    "fourAnswer": "E Corp",
+    "rightAnswer": "Dunder Mifflin"
   },
   {
     "id": 16,
-    "question": "من صاحب الهدف الشهير الملقب بـ 'يد الله' في كأس العالم 1986؟",
-    "firAnswer": "دييغو مارادونا",
-    "secAnswer": "بيليه",
-    "thiAnswer": "ماريو كيمبس",
-    "fourAnswer": "رود خوليت",
-    "rightAnswer": "دييغو مارادونا"
+    "question": "من لعب دور 'سليم الأنصاري' في مسلسل الكلابش؟",
+    "firAnswer": "أحمد عز",
+    "secAnswer": "أمير كرارة",
+    "thiAnswer": "كريم عبد العزيز",
+    "fourAnswer": "آسر ياسين",
+    "rightAnswer": "أمير كرارة"
   },
   {
     "id": 17,
-    "question": "من هو اللاعب الملقب بـ 'الدون'؟",
-    "firAnswer": "ليونيل ميسي",
-    "secAnswer": "كريستيانو رونالدو",
-    "thiAnswer": "كريم بنزيما",
-    "fourAnswer": "زين الدين زيدان",
-    "rightAnswer": "كريستيانو رونالدو"
+    "question": "ما اسم المملكة التي تدور فيها معظم أحداث مسلسل The Witcher؟",
+    "firAnswer": "نيلفغارد",
+    "secAnswer": "سينترا",
+    "thiAnswer": "تميريا",
+    "fourAnswer": "محتوى القارة (The Continent)",
+    "rightAnswer": "محتوى القارة (The Continent)"
   },
   {
     "id": 18,
-    "question": "أي نادٍ يحمل لقب الدوري الألماني (البوندسليغا) الأكثر في التاريخ؟",
-    "firAnswer": "بوروسيا دورتموند",
-    "secAnswer": "باير ليفركوزن",
-    "thiAnswer": "بايرن ميونخ",
-    "fourAnswer": "لايبزيغ",
-    "rightAnswer": "بايرن ميونخ"
+    "question": "ما اسم الشخصية الذكية جداً وذات السلوك الاجتماعي الغريب في The Big Bang Theory؟",
+    "firAnswer": "ليونارد Hofstadter",
+    "secAnswer": "شيلدون كوبر",
+    "thiAnswer": "هاوارد Wolowitz",
+    "fourAnswer": "راج Koothrappali",
+    "rightAnswer": "شيلدون كوبر"
   },
   {
     "id": 19,
-    "question": "من هو اللاعب الذي سجل 5 أهداف في 9 دقائق مع بايرن ميونخ عام 2015؟",
-    "firAnswer": "توماس مولر",
-    "secAnswer": "أريين روبن",
-    "thiAnswer": "روبرت ليفاندوفسكي",
-    "fourAnswer": "فرانك ريبيري",
-    "rightAnswer": "روبرت ليفاندوفسكي"
+    "question": "في مسلسل Dark الألماني، ما هي الوسيلة الرئيسية للتنقل عبر الزمن؟",
+    "firAnswer": "مركبة فضائية",
+    "secAnswer": "كهف وكرة زمنية",
+    "thiAnswer": "كتاب سحري",
+    "fourAnswer": "تعويذة",
+    "rightAnswer": "كهف وكرة زمنية"
   },
   {
     "id": 20,
-    "question": "من الفائز بكأس أمم أوروبا (يورو 2020) التي أقيمت في 2021؟",
-    "firAnswer": "إنجلترا",
-    "secAnswer": "إيطاليا",
-    "thiAnswer": "إسبانيا",
-    "fourAnswer": "فرنسا",
-    "rightAnswer": "إيطاليا"
+    "question": "ما هو المسلسل التاريخي السوري الشهير الذي يُجسد حارة الضبع؟",
+    "firAnswer": "أهل الراية",
+    "secAnswer": "باب الحارة",
+    "thiAnswer": "خاتون",
+    "fourAnswer": "ليالي الصالحية",
+    "rightAnswer": "باب الحارة"
   },
   {
     "id": 21,
-    "question": "ما اسم الملعب الخاص بنادي ريال مدريد؟",
-    "firAnswer": "أنفيلد",
-    "secAnswer": "أليانز أرينا",
-    "thiAnswer": "سانتياغو برنابيو",
-    "fourAnswer": "أولد ترافورد",
-    "rightAnswer": "سانتياغو برنابيو"
+    "question": "من هي بطلة مسلسل The Queen's Gambit الماهرة في الشطرنج؟",
+    "firAnswer": "أنيا تايلور جوي",
+    "secAnswer": "إيما واتسون",
+    "thiAnswer": "فلورنس بيو",
+    "fourAnswer": "ميلي بوبي براون",
+    "rightAnswer": "أنيا تايلور جوي"
   },
   {
     "id": 22,
-    "question": "كم عدد اللاعبين في كل فريق داخل الملعب في بداية المباراة؟",
-    "firAnswer": "10",
-    "secAnswer": "11",
-    "thiAnswer": "12",
-    "fourAnswer": "9",
-    "rightAnswer": "11"
+    "question": "ما هي المادة التي كان يصنعها والتر وايت بنقاوة عالية في Breaking Bad؟",
+    "firAnswer": "المورفين",
+    "secAnswer": "الكريستال ميث الأزرق",
+    "thiAnswer": "الهيروين",
+    "fourAnswer": "الكوكايين",
+    "rightAnswer": "الكريستال ميث الأزرق"
   },
   {
     "id": 23,
-    "question": "من هو اللاعب الذي فاز بكأس العالم 3 مرات كلاعب؟",
-    "firAnswer": "بيليه",
-    "secAnswer": "رونالدو الظاهرة",
-    "thiAnswer": "زيكو",
-    "fourAnswer": "كافو",
-    "rightAnswer": "بيليه"
+    "question": "في مسلسل Friends، كم عدد المرات التي تزوج فيها 'روس جيلر'؟",
+    "firAnswer": "مرتان",
+    "secAnswer": "3 مرات",
+    "thiAnswer": "4 مرات",
+    "fourAnswer": "مرة واحدة",
+    "rightAnswer": "3 مرات"
   },
   {
     "id": 24,
-    "question": "أي منتخب يُلقب بـ 'الطواحين'؟",
-    "firAnswer": "بلجيكا",
-    "secAnswer": "هولندا",
-    "thiAnswer": "الدنمارك",
-    "fourAnswer": "السويد",
-    "rightAnswer": "هولندا"
+    "question": "ما اسم المسلسل الذي يتناول صراع العائلات السياسية والإعلامية في إمبراطورية 'وايلاند'؟",
+    "firAnswer": "Succession",
+    "secAnswer": "Billions",
+    "thiAnswer": "House of Cards",
+    "fourAnswer": "Mad Men",
+    "rightAnswer": "Succession"
   },
   {
     "id": 25,
-    "question": "من النادي الفائز بدوري أبطال أوروبا عام 2012 على حساب بايرن ميونخ؟",
-    "firAnswer": "تشيلسي",
-    "secAnswer": "برشلونة",
-    "thiAnswer": "مانشستر يونايتد",
-    "fourAnswer": "ريال مدريد",
-    "rightAnswer": "تشيلسي"
+    "question": "من هو المحامي الشهير الذي حصل على مسلسله الخاص المشتق من Breaking Bad؟",
+    "firAnswer": "هانك شريدر",
+    "secAnswer": "سول غودمان",
+    "thiAnswer": "غوستافو فرينغ",
+    "fourAnswer": "مايك إيرمانتروت",
+    "rightAnswer": "سول غودمان"
   },
   {
     "id": 26,
-    "question": "من هو الهداف التاريخي لمنتخب مصر واللاعب الذي فاز بدوري أبطال أوروبا مع ليفربول؟",
-    "firAnswer": "محمد صلاح",
-    "secAnswer": "أحمد حسام ميدو",
-    "thiAnswer": "محمد أبوتريكة",
-    "fourAnswer": "عمرو زكي",
-    "rightAnswer": "محمد صلاح"
+    "question": "ما اسم المسلسل الذي يتحدث عن ملكة بريطانيا إليزابيث الثانية؟",
+    "firAnswer": "The Crown",
+    "secAnswer": "Downton Abbey",
+    "thiAnswer": "Bridgerton",
+    "fourAnswer": "Reign",
+    "rightAnswer": "The Crown"
   },
   {
     "id": 27,
-    "question": "ما هو النادي الملقب بـ 'الريدز'؟",
-    "firAnswer": "مانشستر يونايتد",
-    "secAnswer": "أرسنال",
-    "thiAnswer": "ليفربول",
-    "fourAnswer": "أستون فيلا",
-    "rightAnswer": "ليفربول"
+    "question": "ما هو المسلسل العربي الشهير الذي لعب فيه يحيى الفخراني دور 'بشر عامر عبد الظاهر'؟",
+    "firAnswer": "أوبرا عايدة",
+    "secAnswer": "زيزينيا",
+    "thiAnswer": "الليل وآخرة",
+    "fourAnswer": "شيخ العرب همام",
+    "rightAnswer": "زيزينيا"
   },
   {
     "id": 28,
-    "question": "ما هي المدمة الزمنية للشوط الواحد في مباراة كرة القدم الرسمية؟",
-    "firAnswer": "40 دقيقة",
-    "secAnswer": "45 دقيقة",
-    "thiAnswer": "50 دقيقة",
-    "fourAnswer": "60 دقيقة",
-    "rightAnswer": "45 دقيقة"
+    "question": "في مسلسل Viking، ما اسم القائد الفايكنج الشهير البطل الرئيسي في الفصول الأولى؟",
+    "firAnswer": "بيورن",
+    "secAnswer": "راغنار لوثبروك",
+    "thiAnswer": "إيفار",
+    "fourAnswer": "رولو",
+    "rightAnswer": "راغنار لوثبروك"
   },
   {
     "id": 29,
-    "question": "من هو المدرب الملقب بـ 'The Special One'؟",
-    "firAnswer": "بيب جوارديولا",
-    "secAnswer": "يورغن كلوب",
-    "thiAnswer": "جوزيه مورينيو",
-    "fourAnswer": "كارلو أنشيلوتي",
-    "rightAnswer": "جوزيه مورينيو"
+    "question": "ما اسم المسلسل الخيالي المشتق من عالم Game of Thrones ويتحدث عن عائلة تارغاريان؟",
+    "firAnswer": "House of the Dragon",
+    "secAnswer": "The Rings of Power",
+    "thiAnswer": "Wheel of Time",
+    "fourAnswer": "The Last Kingdom",
+    "rightAnswer": "House of the Dragon"
   },
   {
     "id": 30,
-    "question": "من هو المنتخب الفائز بكأس أمم أفريقيا 2019 في الجزائر؟",
-    "firAnswer": "الجزائر",
-    "secAnswer": "السنغال",
-    "thiAnswer": "مصر",
-    "fourAnswer": "نيجيريا",
-    "rightAnswer": "الجزائر"
+    "question": "من هي الممثلة التي قامت بدور 'رفيعة الهانم' في مسلسل هوانم جاردن سيتي؟",
+    "firAnswer": "يسرا",
+    "secAnswer": "صفية العمري",
+    "thiAnswer": "ليلى علوي",
+    "fourAnswer": "إلهام شاهين",
+    "rightAnswer": "صفية العمري"
   },
   {
     "id": 31,
-    "question": "أي بلد استضافت كأس العالم 2010؟",
-    "firAnswer": "البرازيل",
-    "secAnswer": "جنوب أفريقيا",
-    "thiAnswer": "ألمانيا",
-    "fourAnswer": "روسيا",
-    "rightAnswer": "جنوب أفريقيا"
+    "question": "في مسلسل The Mandalorian، ما اسم الكائن الصغير الشهير الملقب بـ 'Baby Yoda'؟",
+    "firAnswer": "غروغو (Grogu)",
+    "secAnswer": "دين جارين",
+    "thiAnswer": "موف جيديون",
+    "fourAnswer": "أهسوكا",
+    "rightAnswer": "غروغو (Grogu)"
   },
   {
     "id": 32,
-    "question": "من هو اللاعب صاحب نطحة الرأس الشهيرة في نهائي كأس العالم 2006؟",
-    "firAnswer": "زين الدين زيدان",
-    "secAnswer": "تيري هنري",
-    "thiAnswer": "ماركو ماتيراتزي",
-    "fourAnswer": "باتريك فييرا",
-    "rightAnswer": "زين الدين زيدان"
+    "question": "ما اسم المسلسل الذي يدور حول كارثة نووية حقيقية وقعت عام 1986؟",
+    "firAnswer": "Chernobyl",
+    "secAnswer": "Dark",
+    "thiAnswer": "The Rain",
+    "fourAnswer": "Snowpiercer",
+    "rightAnswer": "Chernobyl"
   },
   {
     "id": 33,
-    "question": "ما اسم النادي الإنجليزي المعروف بـ 'المدفعجية' (The Gunners)؟",
-    "firAnswer": "تشيلسي",
-    "secAnswer": "أرسنال",
-    "thiAnswer": "توتنهام",
-    "fourAnswer": "مانشستر سيتي",
-    "rightAnswer": "أرسنال"
+    "question": "من هو صاحب شخصية 'رفعت إسماعيل' في مسلسل 'ما وراء الطبيعة'؟",
+    "firAnswer": "أحمد أمين",
+    "secAnswer": "محمد فراج",
+    "thiAnswer": "ماجد الكدواني",
+    "fourAnswer": "شريف منير",
+    "rightAnswer": "أحمد أمين"
   },
   {
     "id": 34,
-    "question": "من الفائز بالكرة الذهبية لعام 2022؟",
-    "firAnswer": "ليونيل ميسي",
-    "secAnswer": "كريم بنزيما",
-    "thiAnswer": "ساديو ماني",
-    "fourAnswer": "كيليان إمبابي",
-    "rightAnswer": "كريم بنزيما"
+    "question": "ما اسم المسلسل الكوميدي الأمريكي الذي يتناول حياة ضباط الشرطة في مركز نيو يورك؟",
+    "firAnswer": "The Office",
+    "secAnswer": "Brooklyn Nine-Nine",
+    "thiAnswer": "Parks and Recreation",
+    "fourAnswer": "Community",
+    "rightAnswer": "Brooklyn Nine-Nine"
   },
   {
     "id": 35,
-    "question": "من هو الفريق الذهبي الذي حقق دوري الـ 'لا هزيمة' في الدوري الإنجليزي 2003-2004؟",
-    "firAnswer": "مانشستر يونايتد",
-    "secAnswer": "أرسنال",
-    "thiAnswer": "تشيلسي",
-    "fourAnswer": "ليفربول",
-    "rightAnswer": "أرسنال"
+    "question": "في مسلسل Lost، ما هو رقم الطائرة التي تحطمت على الجزيرة؟",
+    "firAnswer": "Oceanic 815",
+    "secAnswer": "Boeing 747",
+    "thiAnswer": "Pacific 42",
+    "fourAnswer": "Air Oceanic 108",
+    "rightAnswer": "Oceanic 815"
   },
   {
     "id": 36,
-    "question": "ما هي جنسية اللاعب إيرلينغ هالاند؟",
-    "firAnswer": "السويد",
-    "secAnswer": "النرويج",
-    "thiAnswer": "الدنمارك",
-    "fourAnswer": "ألمانيا",
-    "rightAnswer": "النرويج"
+    "question": "ما اسم المسلسل الشهير الذي يتناول حياة تجار المخدرات في كولومبيا وبابلو إسكوبار؟",
+    "firAnswer": "Ozark",
+    "secAnswer": "Narcos",
+    "thiAnswer": "Snowfall",
+    "fourAnswer": "Gomorrah",
+    "rightAnswer": "Narcos"
   },
   {
     "id": 37,
-    "question": "من النادي الإسباني الملقب بـ 'الروخي بلانكوس'؟",
-    "firAnswer": "إشبيلية",
-    "secAnswer": "فالنسيا",
-    "thiAnswer": "أتلتيكو مدريد",
-    "fourAnswer": "فيكتوريا سيلتا فيغو",
-    "rightAnswer": "أتلتيكو مدريد"
+    "question": "من هو الممثل صاحب شخصية 'طه القماش' في مسلسل طايع؟",
+    "firAnswer": "عمرو يوسف",
+    "secAnswer": "عمرو عبد الجليل",
+    "thiAnswer": "أحمد دباش",
+    "fourAnswer": "أحمد داود",
+    "rightAnswer": "عمرو عبد الجليل"
   },
   {
     "id": 38,
-    "question": "ما هو النادي الأكثر تتويجاً ببطولة الدوري الإسباني (La Liga)؟",
-    "firAnswer": "برشلونة",
-    "secAnswer": "أتلتيكو مدريد",
-    "thiAnswer": "ريال مدريد",
-    "fourAnswer": "أتلتيك بلباو",
-    "rightAnswer": "ريال مدريد"
+    "question": "ما هو المسلسل الذي يعرض قصصاً منفصلة وتكنولوجية مظلمة في كل حلقة (Anthology)؟",
+    "firAnswer": "Black Mirror",
+    "secAnswer": "Westworld",
+    "thiAnswer": "Altered Carbon",
+    "fourAnswer": "Love, Death & Robots",
+    "rightAnswer": "Black Mirror"
   },
   {
     "id": 39,
-    "question": "من هو اللاعب الأكثر مشاركة في المباريات الدولية في تاريخ كرة القدم؟",
-    "firAnswer": "بدر المطوع",
-    "secAnswer": "سيرجيو راموس",
-    "thiAnswer": "كريستيانو رونالدو",
-    "fourAnswer": "أحمد حسن",
-    "rightAnswer": "كريستيانو رونالدو"
+    "question": "ما اسم المسلسل الذي قامت ببطولته منة شلبي وتناول قصة فتيات في حارة شعبية ببيروت؟",
+    "firAnswer": "بطلوع الروح",
+    "secAnswer": "حارة اليهود",
+    "thiAnswer": "في كل أسبوع يوم جمعة",
+    "fourAnswer": "تغيير جو",
+    "rightAnswer": "تغيير جو"
   },
   {
     "id": 40,
-    "question": "ما هو النادي الذي فاز بـ الثلاثية التاريخية (الدوري، الكأس، دوري الأبطال) في إنجلترا عام 1999؟",
-    "firAnswer": "مانشستر سيتي",
-    "secAnswer": "أرسنال",
-    "thiAnswer": "مانشستر يونايتد",
-    "fourAnswer": "تشيلسي",
-    "rightAnswer": "مانشستر يونايتد"
+    "question": "في مسلسل Supernatural، ما اسم الأخوين اللذين يصطادان الوحوش؟",
+    "firAnswer": "سام ودين",
+    "secAnswer": "دانيال وجاكوب",
+    "thiAnswer": "ستيفن وإدوارد",
+    "fourAnswer": "جايسون ومايكل",
+    "rightAnswer": "سام ودين"
   },
   {
     "id": 41,
-    "question": "أي منتخب يحمل لقب 'السامبا'؟",
-    "firAnswer": "الأرجنتين",
-    "secAnswer": "الكولومبيا",
-    "thiAnswer": "البرازيل",
-    "fourAnswer": "تشيلي",
-    "rightAnswer": "البرازيل"
+    "question": "ما اسم المسلسل المصري التاريخي الذي تنازل عن بطولة العالم السفلي وسوق الزلازل؟",
+    "firAnswer": "الفتوة",
+    "secAnswer": "جزيرة غمام",
+    "thiAnswer": "العهد",
+    "fourAnswer": "ألف ليلة وليلة",
+    "rightAnswer": "جزيرة غمام"
   },
   {
     "id": 42,
-    "question": "من هو اللاعب الفرنسي صاحب الهاتريك في نهائي كأس العالم 2022؟",
-    "firAnswer": "أنطوان غريزمان",
-    "secAnswer": "أوليفييه جيرو",
-    "thiAnswer": "كيليان إمبابي",
-    "fourAnswer": "كريم بنزيما",
-    "rightAnswer": "كيليان إمبابي"
+    "question": "من لعبت دور 'جاسندة' أو الفتاة الخارقة 'Eleven' في مسلسل Stranger Things؟",
+    "firAnswer": "سادي سينك",
+    "secAnswer": "ميلي بوبي براون",
+    "thiAnswer": "مايا هوك",
+    "fourAnswer": "ناتاليا داير",
+    "rightAnswer": "ميلي بوبي براون"
   },
   {
     "id": 43,
-    "question": "في أي سنة تأسست بطولة دوري أبطال أوروبا بالشكل والمسمى الحديث؟",
-    "firAnswer": "1970",
-    "secAnswer": "1985",
-    "thiAnswer": "1992",
-    "fourAnswer": "2000",
-    "rightAnswer": "1992"
+    "question": "ما المسلسل الذي يدور حول الروبوتات والمنتزه الترفيهي ذو الطابع الغربي القديم؟",
+    "firAnswer": "Humans",
+    "secAnswer": "Westworld",
+    "thiAnswer": "Raised by Wolves",
+    "fourAnswer": "Person of Interest",
+    "rightAnswer": "Westworld"
   },
   {
     "id": 44,
-    "question": "ما هو الفريق الذي حقق مفاجأة وفاز بالدوري الإنجليزي الممتاز عام 2016؟",
-    "firAnswer": "ليستر سيتي",
-    "secAnswer": "وست هام",
-    "thiAnswer": "إيفرتون",
-    "fourAnswer": "ساوثهامبتون",
-    "rightAnswer": "ليستر سيتي"
+    "question": "ما اسم مسلسل الرعب والغموض المصري المأخوذ عن رواية لأحمد خالد توفيق على نتفليكس؟",
+    "firAnswer": "زودياك",
+    "secAnswer": "ما وراء الطبيعة",
+    "thiAnswer": "شديد الخطورة",
+    "fourAnswer": "الشارع اللي ورانا",
+    "rightAnswer": "ما وراء الطبيعة"
   },
   {
     "id": 45,
-    "question": "من هو الحارس الشهير الملقب بـ 'العنكبوت الأسود'؟",
-    "firAnswer": "بوفون",
-    "secAnswer": "إيكر كاسياس",
-    "thiAnswer": "ليف ياشين",
-    "fourAnswer": "أوليفر كان",
-    "rightAnswer": "ليف ياشين"
+    "question": "في مسلسل How I Met Your Mother، ما هي السلعة/الرمز الشهير المنقول مع تيد وروبن؟",
+    "firAnswer": "الشمسية الزرقاء",
+    "secAnswer": "البيانو الأصفر",
+    "thiAnswer": "الشيء الفرنسي الأزرق (Blue French Horn)",
+    "fourAnswer": "القبعة الحمراء",
+    "rightAnswer": "الشيء الفرنسي الأزرق (Blue French Horn)"
   },
   {
     "id": 46,
-    "question": "من صاحب الكرة الذهبية لعام 2007، وكان آخر من فاز بها قبل حقبة ميسي ورونالدو؟",
-    "firAnswer": "ريكاردو كاكا",
-    "secAnswer": "رونالدينيو",
-    "thiAnswer": "تيري هنري",
-    "fourAnswer": "أندري شيفتشينكو",
-    "rightAnswer": "ريكاردو كاكا"
+    "question": "ما اسم المسلسل الإسباني الذي تدور أحداثه في مدرسة نخبوية (Las Encinas)؟",
+    "firAnswer": "Elite",
+    "secAnswer": "Toy Boy",
+    "thiAnswer": "Vis a Vis",
+    "fourAnswer": "Control Z",
+    "rightAnswer": "Elite"
   },
   {
     "id": 47,
-    "question": "ما هو اسم ملعب نادي مانشستر يونايتد؟",
-    "firAnswer": "الاتحاد",
-    "secAnswer": "أولد ترافورد",
-    "thiAnswer": "ستامفورد بريدج",
-    "fourAnswer": "الشارع الإماراتي",
-    "rightAnswer": "أولد ترافورد"
+    "question": "من هو الممثل صاحب دور 'سليم البدري' في مسلسل ليالي الحلمية؟",
+    "firAnswer": "صلاح السعدني",
+    "secAnswer": "يحيى الفخراني",
+    "thiAnswer": "أحمد مظهر",
+    "fourAnswer": "محمود ياسين",
+    "rightAnswer": "يحيى الفخراني"
   },
   {
     "id": 48,
-    "question": "كم عدد بطولات كأس العالم التي فازت بها إيطاليا؟",
-    "firAnswer": "2",
-    "secAnswer": "3",
-    "thiAnswer": "4",
-    "fourAnswer": "5",
-    "rightAnswer": "4"
+    "question": "ما هو المسلسل المبني على لعبة الفيديو الشهيرة Post-apocalyptic من إنتاج HBO وتألق فيه بيدرو باسكال؟",
+    "firAnswer": "The Walking Dead",
+    "secAnswer": "The Last of Us",
+    "thiAnswer": "Fallout",
+    "fourAnswer": "Halo",
+    "rightAnswer": "The Last of Us"
   },
   {
     "id": 49,
-    "question": "من النادي الأكثر فوزاً بلقب الدوري الأوروبي (Europa League)؟",
-    "firAnswer": "إنتر ميلان",
-    "secAnswer": "إشبيلية",
-    "thiAnswer": "بنفيكا",
-    "fourAnswer": "أتلتيكو مدريد",
-    "rightAnswer": "إشبيلية"
+    "question": "في مسلسل Suits، ما هي الميزة الخاصة التي يمتلكها 'مايك روس' ليعمل كمحامٍ بدون شهادة؟",
+    "firAnswer": "السرعة الفائقة",
+    "secAnswer": "الذاكرة الصورية (Eidetic Memory)",
+    "thiAnswer": "قراءة الأفكار",
+    "fourAnswer": "القرصنة الإلكترونية",
+    "rightAnswer": "الذاكرة الصورية (Eidetic Memory)"
   },
   {
     "id": 50,
-    "question": "من المدرب الذي فاز بدوري أبطال أوروبا مع 3 أندية مختلفة؟",
-    "firAnswer": "بيب جوارديولا",
-    "secAnswer": "جوزيه مورينيو",
-    "thiAnswer": "كارلو أنشيلوتي",
-    "fourAnswer": "يورغن كلوب",
-    "rightAnswer": "كارلو أنشيلوتي"
+    "question": "ما اسم المسلسل الكوميدي المصري الذي قام ببطولته شيكو وهشام ماجد كضباط شرطة؟",
+    "firAnswer": "اللعبة",
+    "secAnswer": "الرجل العناب",
+    "thiAnswer": "خلصانة بشياكة",
+    "fourAnswer": "نيللي وشريهان",
+    "rightAnswer": "الرجل العناب"
   }
 ]
 function pushQuestions(){
