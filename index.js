@@ -4,9 +4,9 @@ let QuestionsAndAnswers = [
 {
     "id": 1,
     "question": "من هو بطل مسلسل 'جعفر العمدة' الذي عرض في رمضان 2023؟",
-    "firAnswer": "أمير كرارة",
+    "firAnswer": "أحمد السقا",
     "secAnswer": "محمد رمضان",
-    "thiAnswer": "أحمد السقا",
+    "thiAnswer":  "أمير كرارة",
     "fourAnswer": "مصطفى شعبان",
     "rightAnswer": "محمد رمضان"
   },
@@ -31,18 +31,18 @@ let QuestionsAndAnswers = [
   {
     "id": 4,
     "question": "من هو بطل ثلاثية أفلام 'The Dark Knight' لشخصية باتمان؟",
-    "firAnswer": "كريستيان بيل",
+    "firAnswer": "روبيرت باتينسون",
     "secAnswer": "بن أفليك",
-    "thiAnswer": "روبيرت باتينسون",
+    "thiAnswer": "كريستيان بيل",
     "fourAnswer": "مايكل كيتون",
     "rightAnswer": "كريستيان بيل"
   },
   {
     "id": 5,
     "question": "ما اسم المسلسل الكوميدي الناجح المكون من عدة أجزاء لبطولة شيكو وهشام ماجد؟",
-    "firAnswer": "اللعبة",
+    "firAnswer": "البيت بيتي",
     "secAnswer": "أشغال شاقة",
-    "thiAnswer": "البيت بيتي",
+    "thiAnswer":  "اللعبة",
     "fourAnswer": "موضوع عائلي",
     "rightAnswer": "اللعبة"
   },
@@ -76,8 +76,8 @@ let QuestionsAndAnswers = [
   {
     "id": 9,
     "question": "من قام ببطولة مسلسل 'الاختيار 1' وجسد شخصية الشهيد أحمد منسي؟",
-    "firAnswer": "أمير كرارة",
-    "secAnswer": "أحمد العوضي",
+    "firAnswer": "أحمد العوضي",
+    "secAnswer": "أمير كرارة",
     "thiAnswer": "آسر ياسين",
     "fourAnswer": "كريم عبد العزيز",
     "rightAnswer": "أمير كرارة"
@@ -94,19 +94,19 @@ let QuestionsAndAnswers = [
   {
     "id": 11,
     "question": "من بطل سلسلة أفلام 'John Wick' الشهيرة؟",
-    "firAnswer": "كيانو ريفز",
+    "firAnswer": "جيسون ستاثام",
     "secAnswer": "توم كروز",
     "thiAnswer": "براد بيت",
-    "fourAnswer": "جيسون ستاثام",
+    "fourAnswer":  "كيانو ريفز",
     "rightAnswer": "كيانو ريفز"
   },
   {
     "id": 12,
     "question": "ما اسم القرية الخيالية التي تدور فيها أحداث مسلسل 'الكبير أوي'؟",
-    "firAnswer": "المزارعيط",
+    "firAnswer": "ساقية مكي",
     "secAnswer": "كفر دلهاب",
     "thiAnswer": "تيتة زوزو",
-    "fourAnswer": "ساقية مكي",
+    "fourAnswer": "المزاريطة",
     "rightAnswer": "المزارعيط"
   },
   {
@@ -148,9 +148,9 @@ let QuestionsAndAnswers = [
   {
     "id": 17,
     "question": "من الممثل صاحب شخصية 'صابر المداح' في سلسلة مسلسل 'المداح'؟",
-    "firAnswer": "حمادة هلال",
+    "firAnswer": "مصطفى شعبان",
     "secAnswer": "أحمد زاهر",
-    "thiAnswer": "مصطفى شعبان",
+    "thiAnswer": "حمادة هلال",
     "fourAnswer": "عمرو سعد",
     "rightAnswer": "حمادة هلال"
   },
@@ -166,10 +166,10 @@ let QuestionsAndAnswers = [
   {
     "id": 19,
     "question": "ما هو الفيلم العالمي الوحيد الذي حصد 11 جائزة أوسكار ومتعلق بعالم 'الخواتم' والفانتازيا؟",
-    "firAnswer": "The Lord of the Rings: The Return of the King",
+    "firAnswer": "The Hobbit" ,
     "secAnswer": "Harry Potter",
-    "thiAnswer": "The Hobbit",
-    "fourAnswer": "Gladiator",
+    "thiAnswer": "The Lord of the Rings: The Return of the King",
+    "fourAnswer": "Gladiator" ,
     "rightAnswer": "The Lord of the Rings: The Return of the King"
   },
   {
@@ -211,9 +211,9 @@ let QuestionsAndAnswers = [
   {
     "id": 24,
     "question": "ما اسم المسلسل الاجتماعي الكوميدي لبطولة هشام ماجد وأسماء جلال في رمضان 2024؟",
-    "firAnswer": "أشغال شاقة",
+    "firAnswer": "بابا جه",
     "secAnswer": "أعلى نسبة مشاهدة",
-    "thiAnswer": "بابا جه",
+    "thiAnswer": "أشغال شاقة",
     "fourAnswer": "خالد نور وولد خالد نور",
     "rightAnswer": "أشغال شاقة"
   },
@@ -229,10 +229,10 @@ let QuestionsAndAnswers = [
   {
     "id": 26,
     "question": "في أي فيلم ظهرت شخصية 'دكتور يحيى راشد' الطبيب النفسي؟",
-    "firAnswer": "الفيل الأزرق",
+    "firAnswer": "كيرة والجن",
     "secAnswer": "تراب الماس",
     "thiAnswer": "الأصليين",
-    "fourAnswer": "كيرة والجن",
+    "fourAnswer": "الفيل الأزرق",
     "rightAnswer": "الفيل الأزرق"
   },
   {
